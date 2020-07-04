@@ -19,7 +19,6 @@ h2{
 	color: #fafafa!important;
 	margin-bottom: 20px !important;
 }
-
 h3{
 	font-family: 'Lato',Helvetica,Arial,Lucida,sans-serif!important;
 	font-weight: 900 !important;
@@ -35,7 +34,6 @@ h5{
 	line-height: 1.4em !important;
 	color: #fafafa !important;	
 }
-
 p{
 	font-family: Open Sans,Arial,sans-serif;
 	color: #666;
@@ -44,31 +42,25 @@ p{
 	font-weight: 600;
 	margin-bottom: 25px!important;
 }
-
 a{
 	text-decoration: none;
 }
-
 a:hover{
 	text-decoration: none !important;
 	color: #fafafa !important;
 }
-
 .navbar-dark .navbar-nav .nav-link{
 	color: #fcfcfc!important;
 }
 .navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover{
 	color: #e09900 !important;
 }
-
 .bg-black{
 	background-color: #1c1c1c !important;
 }
-
 .navbar{
 	background-color: #1c1c1c !important;
 }
-
 .button{
 	font-size: 20px;
 	color: #ffffff;
@@ -81,18 +73,67 @@ a:hover{
 	padding: 15px 15px 15px 15px;
 	box-shadow: 0px 12px 18px -6px rgba(0,0,0,0.3);	
 }
-
 .button:hover{
 	background-color: #a0761b;
 }
-
+.btn-primary {
+	font-size: 20px !important;
+	color: #ffffff !important;
+	line-height: 1.7em !important;
+	border-width: 0px !important;
+	border-radius: 3px !important;
+	font-weight: 600 !important;
+	text-transform: uppercase !important;
+	background-color: #e09900 !important;
+	padding: 10px 15px 10px 15px !important;
+	box-shadow: 0px 12px 18px -6px rgba(0,0,0,0.3) !important;
+	float: right;
+}
+.btn-primary:hover{
+	background-color: #a0761b !important;
+}
 .text-area-2{
 	width: 100%;
 	margin-top: 5vw;
 	margin-bottom:5vw;
 	text-align: center;
 }
-
+.text-area-3{
+	width: 100%;
+	margin-top: 45px;
+	text-align: center;
+}
+.text-area-4{
+	width: 60%;
+	margin-top: 45px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center
+}
+.number{
+	text-align: center;
+	font-family: 'Lato',Helvetica,Arial,Lucida,sans-serif !important;
+	font-weight: 900;
+	font-size: 120px !important;
+	color: #e09900!important;
+	line-height: 1.3em;
+	letter-spacing:2px; 
+	text-shadow: 0px 2px 3px 2px;
+}
+.light{
+	color: #fafafa;
+	text-align: center;
+}
+.darkened{
+	color: #1c1c1c !important;
+	text-align: center;
+}
+.progress {
+	height: 1.5rem !important;
+}
+.bg-progress{
+	background-color: #e09900 !important;
+}
 
 /* Dispositivos small (telefones em modo paisagem, com 576px ou mais) */
 @media (min-width: 576px) { 
@@ -121,6 +162,40 @@ a:hover{
 		background-repeat: no-repeat;
 		background-size: cover;
 	}
+	#parallax-3{
+		background-image: url("img/background-1.png");
+		height: 750px;
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	#parallax-4{
+		background-image: url("img/background-2.png");
+		height: 650px;
+		background-color: #1c1c1c;
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	#parallax-5{
+		background-image: url("img/background-1.png");
+		height: 840px;
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	#parallax-6{
+		background-image: url("img/background-2.png");
+		height: 480px;
+		background-color: #1c1c1c;
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
 }
 
 /* Dispositivos médios (tablets com 768px ou mais) */
@@ -131,6 +206,13 @@ a:hover{
 	.image{
 		float:right; 
 		margin-top: -15px;
+		margin-right:10px; 
+		margin-left:10px; 
+		margin-bottom:5px;
+	}
+	.image-2{
+		float:right; 
+		margin-top: 15%;
 		margin-right:10px; 
 		margin-left:10px; 
 		margin-bottom:5px;
@@ -152,6 +234,40 @@ a:hover{
 		background-repeat: no-repeat;
 		background-size: cover;
 	}
+	#parallax-3{
+		background-image: url("img/background-1.png");
+		height: 750px;
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	#parallax-4{
+		background-image: url("img/background-2.png");
+		height: 650px;
+		background-color: #1c1c1c;
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	#parallax-5{
+		background-image: url("img/background-1.png");
+		height: 1480px;
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	#parallax-6{
+		background-image: url("img/background-2.png");
+		height: 480px;
+		background-color: #1c1c1c;
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
 }
 
 /* Dispositivos large (desktops com 992px ou mais) */
@@ -160,6 +276,13 @@ a:hover{
 		padding-top: 28%;
 	}
 	.image{
+		float:right; 
+		margin-top: 15%;
+		margin-right:10px; 
+		margin-left:10px; 
+		margin-bottom:5px;
+	}
+	.image-2{
 		float:right; 
 		margin-top: 15%;
 		margin-right:10px; 
@@ -183,8 +306,41 @@ a:hover{
 		background-repeat: no-repeat;
 		background-size: cover;
 	}
+	#parallax-3{
+		background-image: url("img/background-1.png");
+		height: 750px;
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	#parallax-4{
+		background-image: url("img/background-2.png");
+		height: 700px;
+		background-color: #1c1c1c;
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	#parallax-5{
+		background-image: url("img/background-1.png");
+		height: 1240px;
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	#parallax-6{
+		background-image: url("img/background-2.png");
+		height: 500px;
+		background-color: #1c1c1c;
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
 }
-
 
 /* Dispositivos extra large (desktops grandes com 1200px ou mais) */
 @media (min-width: 1200px) { 
@@ -192,6 +348,13 @@ a:hover{
 		padding-top: 28%;
 	}
 	.image{
+		float:right; 
+		margin-top: 15%;
+		margin-right:10px; 
+		margin-left:10px; 
+		margin-bottom:5px;
+	}
+	.image-2{
 		float:right; 
 		margin-top: 15%;
 		margin-right:10px; 
@@ -209,6 +372,40 @@ a:hover{
 	#parallax-2{
 		background-image: url("img/background-2.png");
 		height: 400px;
+		background-color: #1c1c1c;
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	#parallax-3{
+		background-image: url("img/background-1.png");
+		height: 850px;
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	#parallax-4{
+		background-image: url("img/background-2.png");
+		height: 750px;
+		background-color: #1c1c1c;
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	#parallax-5{
+		background-image: url("img/background-1.png");
+		height: 1130px;
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	#parallax-6{
+		background-image: url("img/background-2.png");
+		height: 520px;
 		background-color: #1c1c1c;
 		background-attachment: fixed;
 		background-position: center;
